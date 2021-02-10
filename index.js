@@ -2,8 +2,11 @@ function breakOut(array, changeValue, stopValue) {
   for (let i = 0; i < array.length; i++ ) {
     if (array[i] === stopValue) {
       break;
+    } else {
+      array[i] = changeValue;
     }
-    changeValue(array[i])
     return array;
   }
 }
+
+function keepGoing(array, changeValue, skipValue)

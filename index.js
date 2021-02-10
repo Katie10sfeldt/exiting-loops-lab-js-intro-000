@@ -9,4 +9,4 @@ function breakOut(array, changeValue, stopValue) {
   }
 }
 
-function keepGoing(array, changeValue, skipValue)
+function keepGoing(array, changeValue, skipValue) {}
